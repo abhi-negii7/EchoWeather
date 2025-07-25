@@ -21,6 +21,7 @@ EchoWeather is a sleek and responsive weather application built with **HTML**, *
 <p float="left">
   <img src="images/home.png" width="75%" />
   <img src="images/example.png" width="75%" />
+  <img src="images/invalid-city.png" width="75%" />
 </p>
 
 
