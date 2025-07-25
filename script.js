@@ -13,7 +13,7 @@ const airQuality = document.getElementById("air-quality");
 async function getData(cityName) {
   // To dynamically insert the city we will use -> `
   const promise = await fetch(
-    `http://api.weatherapi.com/v1/current.json?key=4f6593c8a33b4bd4ac1130507252207&q=${cityName}&aqi=yes`
+    `https://api.weatherapi.com/v1/current.json?key=4f6593c8a33b4bd4ac1130507252207&q=${cityName}&aqi=yes`
   );
   if(promise.status==400){
     alert("Invalid city name");
